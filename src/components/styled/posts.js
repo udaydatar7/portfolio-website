@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import variables from "../../data/variables";
 
 export const Intro = styled.div`
   padding: 8rem 0 4rem 0;
@@ -9,6 +10,7 @@ export const Title = styled.h1`
   font-size: 2rem;
   text-transform: capitalize;
   font-family: "GT-Walsheim-Pro-Bold";
+  color: ${variables.primary}
 `
 
 export const ArticlePost = styled.article`
@@ -25,6 +27,7 @@ export const SmallText = styled.small`
     font-size: .89rem;
     padding-right: 10px;
     font-family: "GT-Walsheim-Pro-Regular";
+    color:#fff;
     > span {
       padding-left: 5px;
     }
@@ -34,6 +37,7 @@ export const ArticleBody = styled.div `
   p {
     font-size: 1.5rem;
     font-family: "GT-Walsheim-Pro-Medium";
+    color:#fff;
   }
 `
 

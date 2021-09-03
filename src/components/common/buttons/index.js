@@ -12,7 +12,7 @@ export const ButtonDefault = styled.a`
   text-decoration:none;
   border: 4px solid ${colors.primary};
   color: ${colors.primary};
-  background: #fff;
+  background: #161313;
   outline: none;
   position: relative;
   display: inline-block;
@@ -56,7 +56,7 @@ export const ReadMore = styled.span`
 `
 
 export const ResumeButton = styled.a`
-  color: #000;
+  color: #fff;
   font-size: 1rem;
   letter-spacing: 2px;
   font-family: "GT-Walsheim-Pro-Medium";

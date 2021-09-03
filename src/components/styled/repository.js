@@ -10,13 +10,14 @@ export const RepoGrid = styled.div`
 `
 export const RepoInfo = styled.div`
   display: flex;
+  color:#fff;
   align-items: center;
   justify-content: center;
   margin-bottom: 6rem;
 `
 export const Avatar = styled.div`
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border-radius: .5rem;
   border: 10px solid #fff;
   box-shadow: 0 0 20px 10px rgb(27 26 26 / 10%);
@@ -31,7 +32,7 @@ export const RepoContent = styled.div`
   border: 1px solid #e1e4e8;
   margin-bottom: 2rem;
   padding: 1rem;
-  font-size: 16;
+  font-size: 100;
   transition: all 200ms ease-in-out;
   &:hover {
     box-shadow: 0px 0px 36px 25px rgb(0 0 0 / 3%);
@@ -44,10 +45,10 @@ export const Title = styled.h2`
   margin-bottom: 0;
   margin-top: 0;
   font-size: 1.4rem;
-  text-transform: capitalize;
   font-family: "GT-Walsheim-Pro-Bold";
   @media(max-width: ${variables.breakpointPhone}) {
     font-size: 1rem;
+    
   }
 `
 export const RepoHead = styled.div`
@@ -55,11 +56,10 @@ export const RepoHead = styled.div`
   justify-content: space-between;
 `
 export const Text = styled.p`
-  color: rgb(25 27 29);
+  color: #fff;
   margin-bottom: 1rem;
   margin-top: .25rem;
   font-size: 1rem;
-  text-transform: capitalize;
   @media(max-width: ${variables.breakpointPhone}) {
     font-size: .9rem;
   }
@@ -68,7 +68,7 @@ export const FooterItem = styled.span`
   margin-right: .89rem;
   margin-bottom: 1rem;
   font-size: .9rem;
-  color: #242525;
+  color: ${variables.primary};
   font-family: "GT-Walsheim-Pro-Medium";
   vertical-align: middle;
   display: inline-block;

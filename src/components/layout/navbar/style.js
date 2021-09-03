@@ -3,7 +3,7 @@ import variables from '../../../data/variables';
 
 export const NavbarLogo = styled.div`
   a {
-    color: ${variables.black};
+    color: ${variables.inverse};
     font-size: 2.3rem;
     font-family: "GT-Walsheim-Pro-Bold";
   }
@@ -30,7 +30,7 @@ export const NavbarList = styled.ul`
   list-style: none;
   > li a {
     font-size: 1.2rem;
-    color: #232323;
+    color: #fff;
     padding: .5rem .2rem;
     margin: 0 1rem;
     text-decoration: none;

@@ -6,7 +6,7 @@ export const Tag = styled.a`
   text-transform: uppercase;
   letter-spacing: .05em;
   font-size: .8em;
-  background: rgb(183 181 181 / 15%);
+  background: rgb(151 52 71 / 15%);
   border-radius: .25rem;
   padding: .5rem 1rem;
   margin-right: 1rem;
@@ -15,7 +15,7 @@ export const Tag = styled.a`
   margin-bottom: 1rem;
   &.active {
     background: ${variables.primary};
-    color: ${variables.inverse};
+    color: ${variables.black};
     font-family: "GT-Walsheim-Pro-Bold";
   }
 `

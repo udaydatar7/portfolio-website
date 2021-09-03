@@ -8,7 +8,12 @@ export const FooterStyle = styled.footer`
 	position: relative;
 	text-align: left;
 	@media(min-width: ${variables.breakpointPhone}) {
-		background: linear-gradient(to top, #efe9e9, transparent 50%);
+		background: rgb(22,19,19);
+		background: linear-gradient(to bottom, rgba(22,19,19,1) 0%, rgba(22,19,19,1) 48%, rgba(251,0,0,1) 100%);
+	}
+	@media(max-width: ${variables.breakpointPhone}) {
+		background: rgb(22,19,19);
+		background: linear-gradient(to bottom, rgba(22,19,19,1) 0%, rgba(22,19,19,1) 48%, rgba(251,0,0,1) 100%);
 	}
 	@media(max-width: ${variables.breakpointPhone}) {
 		padding-bottom: 2rem;
