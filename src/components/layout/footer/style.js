@@ -39,12 +39,13 @@ export const SubRight = styled.p`
 	text-transform: capitalize;
 	margin-bottom: 20px;
 	font-family: "GT-Walsheim-Pro-Bold";
+	color: #fff;
 `	
 export const CopyRight = styled.p`
+	color: #fff;
 	font-size: 11px;
 	line-height: 1.8;
 	letter-spacing:1px;
-	text-transform: capitalize;
 `
 export const FooterBody = styled.div`
 	display: grid;
