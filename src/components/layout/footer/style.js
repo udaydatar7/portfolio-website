@@ -9,11 +9,11 @@ export const FooterStyle = styled.footer`
 	text-align: left;
 	@media(min-width: ${variables.breakpointPhone}) {
 		background: rgb(22,19,19);
-		background: linear-gradient(to bottom, rgba(22,19,19,1) 0%, rgba(22,19,19,1) 48%, rgba(151,0,0,1) 100%);
+		background: linear-gradient(to bottom, rgba(22,19,19,1) 0%, rgba(22,19,19,1) 50%, rgba(151,0,0,1) 100%);
 	}
 	@media(max-width: ${variables.breakpointPhone}) {
 		background: rgb(22,19,19);
-		background: linear-gradient(to bottom, rgba(22,19,19,1) 0%, rgba(22,19,19,1) 48%, rgba(151,0,0,1) 100%);
+		background: linear-gradient(to bottom, rgba(22,19,19,1) 0%, rgba(22,19,19,1) 50%, rgba(151,0,0,1) 100%);
 	}
 	@media(max-width: ${variables.breakpointPhone}) {
 		padding-bottom: 2rem;
@@ -42,8 +42,8 @@ export const SubRight = styled.p`
 	color: #fff;
 `	
 export const CopyRight = styled.p`
-	color: #fff;
-	font-size: 11px;
+	color:#ffffff;
+	font-size: 20px;
 	line-height: 1.8;
 	letter-spacing:1px;
 `
