@@ -26,11 +26,10 @@ const About = () => {
             </div> 
             <div>
               <Title> Hello, I’m Uday </Title>
-              <Text> I'm a Developer hailing from <b className="text-primary lined-link">India</b> living in Gurgaon. </Text>
+              <Text> I'm a developer hailing from <b className="text-primary lined-link">India</b> living in Gurgaon. I'm currently studying at the Manipal Institute of Technonlogy (class of '25). </Text>
               <Text> I love working with modern technologies, building and designing awesome projects. I prefer minimalistic and clean designs with strong user experience.</Text>
-              <Text>
-              </Text>
-              <ResumeButton href="resume.pdf" target="_blank"> Download resume. </ResumeButton>
+              <Text> I used to work mainly in data science but recently started learning Web Development too.</Text>
+              <ResumeButton href="resume.pdf" target="_blank"> My resume. </ResumeButton>
             </div>
           </AboutSection>
         </ContainerLayout>
