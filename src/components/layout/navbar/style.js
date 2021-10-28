@@ -15,10 +15,10 @@ export const NavbarLogo = styled.div`
 export const NavbarElement = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
+  align-items: right;
   @media(max-width: ${variables.breakpointPhone}) {
     grid-template-columns: 1fr;
-    text-align: center;
+    text-align: right;
     width: 100%;
   }
 `
@@ -34,7 +34,7 @@ export const NavbarList = styled.ul`
     padding: .5rem .2rem;
     margin: 0 1rem;
     text-decoration: none;
-    vertical-align: middle;
+    vertical-align: right;
     > svg {
       width: 18px;
       margin-right: 5px;
@@ -42,7 +42,7 @@ export const NavbarList = styled.ul`
     span, 
     svg {
       display: block;
-      vertical-align: middle;
+      vertical-align: right;
     }
     @media(max-width: ${variables.breakpointPhone}) {
       font-size: 1rem;
