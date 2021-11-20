@@ -13,7 +13,7 @@ const Navbar = ({ siteTitle }) => (
           <NavbarLogo>
             <h3>
               <Link to="/">
-                <Smile className="align-middle"/> <span className="align-middle"> {SiteTitle} </span>
+                <span className="align-middle"> {SiteTitle} </span>
               </Link>
             </h3>
           </NavbarLogo> 

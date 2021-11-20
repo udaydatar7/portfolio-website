@@ -15,9 +15,9 @@ const WorkIndex = ({ data }) => {
         <Intro>
           <ContainerLayout>
 
-            {/* <SubTitle className="text-dark">
-              My work
-            </SubTitle> */}
+            <SubTitle className="text-dark">
+              
+            </SubTitle>
 
             <ContainerLayout className="wrapper">
               {works.map(({ node }) => {
