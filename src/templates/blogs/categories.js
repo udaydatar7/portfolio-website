@@ -20,9 +20,7 @@ const Categories = ({ data }) => {
       <Intro>
         <ContainerLayout>
 
-          <SubTitle>
-            Articles
-          </SubTitle>
+          
           <HeaderIntro>
             <SubText>
               Articles on front-end design engineering, focused on HTML, CSS, SVG, accessiblity, and everything in between, with practical tips from real projects. Included here are links to articles published on magazines.
