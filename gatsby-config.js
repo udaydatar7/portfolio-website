@@ -39,6 +39,12 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: "gatsby-transformer-remark",
+            options: {
+              plugins: ["gatsby-remark-embed-spotify"]
+            },
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,
