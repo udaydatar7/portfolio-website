@@ -21,8 +21,8 @@ const Navbar = ({ siteTitle }) => (
             <NavbarList>
               <li><Link to="/" className="lined-link" activeClassName="active"> <User /> <span> About </span> </Link></li> 
               <li><Link to="/repositories" className="lined-link" activeClassName="active"> <GitHub /> <span> Github </span> </Link></li>  
-              <li><Link to="/works" className="lined-link" activeClassName="active"> <Briefcase /> <span> My work </span> </Link></li>  
-              <li><Link to="/blog" className="lined-link" activeClassName="active"> <Feather /> <span> Music and Photography</span> </Link></li>
+              {/* <li><Link to="/works" className="lined-link" activeClassName="active"> <Briefcase /> <span> My work </span> </Link></li>  
+              <li><Link to="/blog" className="lined-link" activeClassName="active"> <Feather /> <span> Music and Photography</span> </Link></li> */}
             </NavbarList>
           </div>
       </NavbarElement>  
