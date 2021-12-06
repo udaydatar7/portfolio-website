@@ -15,7 +15,7 @@ const About = () => {
       }
     }
   `)
-  return (
+  return (  
     <>
       <SectionIntro>
         <ContainerLayout>
