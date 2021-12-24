@@ -16,7 +16,7 @@ const WorkIndex = ({ data }) => {
           <ContainerLayout>
 
             <SubTitle className="text-light">
-             This is where I will put all my projects that aren't covered through github repos.
+             
             </SubTitle>
 
             <ContainerLayout className="wrapper">
