@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Link, graphql } from "gatsby"
-import { Calendar, Clock } from 'react-feather'
+import { Calendar} from 'react-feather'
 import Img from "gatsby-image"
 import {ContainerLayout, WorkPost, Intro, SubTitle, Title, Text, HeaderIntro, SubText, SmallText, UnderLink, ReadMore} from "../components/common"
 import CategoriesTags from '../components/CategoriesTags/categoriesTags';
@@ -63,7 +63,7 @@ const BlogIndex = ({ data }) => {
                         <SmallText> 
                           <Calendar className="align-middle text-primary" width="18" height="18" /> 
                           <span className="align-middle"> date published : {node.frontmatter.date} </span>
-                        </SmallText>
+                          </SmallText>
                         {/* <SmallText> 
                           <Clock className="align-middle text-primary" width="18" height="18" /> 
                           <span className="align-middle"> read time : {node.frontmatter.time} </span>
