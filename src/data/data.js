@@ -50,7 +50,7 @@ module.exports = {
     city: 'Gurgaon',
     region: 'Haryana ',
     country: 'India',
-    zipCode: 'ZipCode',
+    zipCode: '122018',
   },
   SiteContact: {
     email: 'udaydatar7@gmail.com',

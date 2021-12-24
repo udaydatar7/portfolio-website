@@ -40,7 +40,7 @@ export const ButtonDefault = styled.a`
 `;
 
 export const ReadMore = styled.span`
-  color: #000;
+  color: #FFFFFF;
   font-size: 1rem;
   text-transform: inherit;
   letter-spacing: .7px;

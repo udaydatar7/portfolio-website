@@ -21,7 +21,7 @@ const BlogIndex = ({ data }) => {
             
             <HeaderIntro>
               <SubText>
-                Articles on front-end design engineering, focused on HTML, CSS, SVG, accessiblity, and everything in between, with practical tips from real projects. Included here are links to articles published on magazines.
+               This is a place where I'll post my thoughts on stuff. Basically a blog page but updated <b className="text-primary lined-link">VERY INFREQUENTLY.</b>
               </SubText>
               <CategoriesTags /> 
             </HeaderIntro>

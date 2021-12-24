@@ -1,5 +1,5 @@
 /**
- *  Gatsby's useStaticQuery React hook/
+ *  Gatsby's useStaticQuery React hook/ haven't done anything yet.
  */
 
 import React from "react"
