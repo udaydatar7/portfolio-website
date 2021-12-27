@@ -6,7 +6,9 @@ imageCredit: https://dribbble.com/shots/13972666-faces
 date: "2015-05-01T22:12:03.284Z"
 time: 3
 description: "Test Blog 1"
+
 ---
+
 
 Uncertainty arising from both global factors and the trajectory of the pandemic influenced RBI’s monetary policy committee (MPC) meeting this month. MPC’s minutes point to the growing complexity in economic policy making and the need for synchronisation of monetary and fiscal policies to insulate the economy from uncertainty and also provide policy support to an underperforming economy.  Consequently, there’s unanimity in the committee that the policy interest rate needs to be kept at the current 4%.
 

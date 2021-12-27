@@ -43,6 +43,22 @@ module.exports = {
             options: {
               plugins: ["gatsby-remark-embed-spotify"]
             },
+            resolve: "gatsby-remark-embed-video",
+            options:{
+              width: 800,
+              ratio: 1.77,
+              height: 400,
+              related: false,
+              noIframeBorder: true,
+              loadingStrategy: 'lazy',
+              urlOverrides: [
+                {
+                  id: "youtube",
+                  embedURL: videoId =>
+                  'https://www.youtube-nocookie.com/embed/${videoId}`',
+                }
+              ]
+            }
           },
           {
             resolve: `gatsby-remark-images`,
