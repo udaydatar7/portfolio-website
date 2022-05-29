@@ -29,7 +29,7 @@ module.exports = {
     },
     {
       resolve: `gatsby-source-filesystem`,
-      options: {
+      options: {  
         name: `images`,
         path: `${__dirname}/src/assets/img`,
       },
@@ -87,7 +87,7 @@ module.exports = {
         background_color: `#000`,
         theme_color: `#000`,
         display: `minimal-ui`,
-        icon: `src/assets/img/android-chrome-192x192.png`, // This path is relative to the root of the site.
+        icon: `src/assets/img/android-chrome-192x192.png`, 
       },
     },
     {
@@ -98,7 +98,7 @@ module.exports = {
         variables: data.githubApiVariables,
       },
     },
-    // https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/
+    
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -106,8 +106,7 @@ module.exports = {
           head: true,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
+    
     `gatsby-plugin-offline`,
   ],
 }
