@@ -56,5 +56,5 @@ module.exports = {
     email: 'udaydatar7@gmail.com',
     phone: 'phone number',
   },
-  SiteCopyright: '2021',
+  SiteCopyright: '2022',
 };
