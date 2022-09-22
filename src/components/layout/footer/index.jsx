@@ -28,7 +28,7 @@ const Footer = () => {
 						<SubRight> No one uses contact forms. </SubRight>
 						<CopyRight className="text-dark">
 							© 
-							<span> {new Date().getFullYear()}, Built with {` `} 
+							<span> {new Date().getFullYear()} Uday Datar, Built with {` `} 
 								<a href="https://www.gatsbyjs.org">Gatsby</a>{" "}
           		</span> 
 							Copyright {data.SiteCopyright} by {data.SiteAuthor} </CopyRight>
